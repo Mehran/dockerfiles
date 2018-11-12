@@ -100,6 +100,7 @@ sleep 2
 printf "\e[1;92m[*] Configure DNS!\e[0m\n"
 apt-get install unbound unbound-host -y
 curl -s -o /var/lib/unbound/root.hints https://www.internic.net/domain/named.cache
+cp /usr/share/dns/root.key /var/lib/unbound/
 systemctl disable systemd-resolved.service
 service systemd-resolved stop
 echo "" > /etc/unbound/unbound.conf
