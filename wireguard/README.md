@@ -13,5 +13,5 @@ docker run --rm -it \
  	-v /usr/src:/usr/src \
 	-p 51820:51820/udp \
 	-p 53:53/udp \
-  wireguard
+  	wireguard
  ```
