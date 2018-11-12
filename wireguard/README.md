@@ -15,3 +15,8 @@ docker run --rm -it \
 	-p 53:53/udp \
   	wireguard
  ```
+3) in Container :
+```
+chmod +x ./wg.sh
+./wg.sh
+```
