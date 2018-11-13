@@ -23,4 +23,4 @@ if you use Microsoft Azure first should disable DNS
 ```
 sudo systemctl disable systemd-resolved.service
 sudo systemctl stop systemd-resolved
-    ```
+```
