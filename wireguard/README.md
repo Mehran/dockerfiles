@@ -1,8 +1,4 @@
-1) create image :
-```
-docker build -t wireguard .
-```
-2) create Container
+*) create Container
 
 ```
 docker run --rm -it \
@@ -13,7 +9,7 @@ docker run --rm -it \
  	-v /usr/src:/usr/src \
 	-p 51820:51820/udp \
 	-p 53:53/udp \
-  	wireguard
+  	mehran/wireguard
  ```
 3) in Container :
 ```
