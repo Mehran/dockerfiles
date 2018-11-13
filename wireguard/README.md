@@ -1,4 +1,4 @@
-*) create Container
+1) create Container
 
 ```
 docker run --rm -it \
@@ -11,7 +11,7 @@ docker run --rm -it \
 	-p 53:53/udp \
   	mehran/wireguard
  ```
-3) in Container :
+2) in Container :
 ```
 chmod +x ./wg.sh
 ./wg.sh
