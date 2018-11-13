@@ -107,7 +107,7 @@ echo "" > /etc/unbound/unbound.conf
 echo "server:
 
   num-threads: 4
-
+  do-ip6: no  # Disable ip6 for Azure
   #Enable logs
   verbosity: 1
 
