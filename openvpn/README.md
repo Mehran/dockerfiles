@@ -14,4 +14,4 @@ mehran/openvpn
 ```
 bash openvpn-install.sh
 ```
-2) Done :)
+3) Done :)
